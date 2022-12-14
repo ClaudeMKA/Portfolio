@@ -37,7 +37,7 @@ ul, ol {
 /*.bloc_header {width: 1400px; margin: 0 auto;}*/
 .wrap {max-width: 1332px; width:100%;margin: 0 auto;padding: 0 1rem;}
 .wrap2 {max-width: 1600px; width:100%;}
-.wrap3 {max-width: 500px; width:100%;margin: 0 auto;}
+.wrap3 {max-width: 700px; width:100%;margin: 0 auto;}
 .bloc_header{
     display: flex;
     justify-content: space-between;
@@ -392,7 +392,8 @@ color 0.3s ease-out;
     margin-top: 2rem;
     border-radius: 1rem;
     width: 15%;
-    background-color: #4EB5FFFF;
+    background-color: white;
+    box-shadow: 13px 10px 10px -6px black;
 
 }
 #service .mes_services i{
@@ -400,7 +401,7 @@ color 0.3s ease-out;
     background-color: black;
     padding: 1rem;
     font-size: 2.3rem;
-    border-radius: 1rem;
+    border-radius: 2.2rem;
     color: white;
     transition: 0.2s;
 }
@@ -412,8 +413,41 @@ color 0.3s ease-out;
 #service .mes_services i:hover{
     transform: scale(1.2);
 }
-#aboutme
-#aboutme .gris1{
-    background-color: black;
+/* aboutre */
+
+#about_me{
+    margin-top:10rem;
+    padding-bottom: 4rem;
 }
+#about_me .grand_gris{
+ text-align: -webkit-center;
+}
+
+
+
+
+#about_me i{
+    font-size: 3rem;
+    animation: scale 3s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+#about_me .gris2 h2{
+    font-size: 3rem;
+}
+#about_me .gris2 p{
+    padding-top: 0.5rem;
+ font-size: 12px;
+    padding-bottom: 1rem;
+}
+
+
 
