@@ -934,6 +934,9 @@ color: white;
         box-shadow: 25px 25px 50px #7b7d7f, -25px -25px 50px #ffffff;
         cursor: pointer;
     }
+    #project .voir_plus {
+        margin-top: 0rem;
+    }
 }
 
 @media screen and (max-width: 580px) {
