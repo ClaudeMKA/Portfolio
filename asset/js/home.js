@@ -30,14 +30,74 @@ service.addEventListener('mouseenter', function(evt){
 })
 
 let float = document.querySelector('.cadre_video');
-console.log(float)
-let vole = true
-setInterval(function() {
-         if (vole == true){
-             float.style.paddingTop = '0.5rem'
-             vole = false
-         } else if (vole == false){
-             float.style.paddingTop = '0rem'
-             vole = true
-         }
-}, 1000);
+const mt = document.querySelectorAll('.img_mt');
+console.log(mt[0])
+let mtr = mt[0];
+
+
+
+
+const burger =  document.querySelector(".burger")
+const home_burger = document.querySelector(".bloc_nav")
+console.log(burger);
+const prj = document.querySelector('#project');
+const service_v = document.querySelector('#service')
+const about = document.querySelector('#about_me')
+const contact = document.querySelector('#formulaire')
+const lien = document.querySelectorAll('.bloc_nav a');
+console.log(lien)
+const l1 = lien[1]
+const l = lien[0]
+const l2 = lien[2]
+const l3 = lien[3]
+const wrap = document.querySelector('.wrap')
+burger.addEventListener('click',()=>{
+    home_burger.classList.toggle('mobile-menu');
+
+
+  menu = document.querySelector('.mobile-menu');
+   if (menu != null ){
+       wrap.style.marginTop = '70rem'
+
+   } else{
+       wrap.style.marginTop = '4rem'
+
+   }
+
+})
+
+l1.addEventListener('click', function(evt){
+    home_burger.classList.toggle('mobile-menu');
+
+        wrap.style.marginTop = '4rem'
+
+})
+
+l2.addEventListener('click', function(evt){
+    home_burger.classList.toggle('mobile-menu');
+
+        wrap.style.marginTop = '4rem'
+
+
+})
+
+l.addEventListener('click', function(evt){
+    evt.preventDefault();
+    home_burger.classList.toggle('mobile-menu');
+
+        wrap.style.marginTop = '4rem'
+
+
+})
+
+l3.addEventListener('click', function(evt){
+
+    home_burger.classList.toggle('mobile-menu');
+
+        wrap.style.marginTop = '4rem'
+
+
+})
+
+
+
