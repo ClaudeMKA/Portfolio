@@ -685,6 +685,9 @@ footer  {
     background-color: black;
     padding: 3rem;
 }
+.footer{
+    text-align: -webkit-center;
+}
 footer p{
 color: white;
 }
