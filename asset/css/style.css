@@ -171,8 +171,10 @@ ul, ol {
     padding: 1rem;
     font-weight: bold;
     cursor: pointer;
-    color: white;
     transition: 0.4s;
+}
+.rond_home1 a{
+    color: white;
 }
 .rond_home1 p:hover{
     font-size: 1.2rem;
@@ -209,10 +211,10 @@ ul, ol {
 .rond_cadre p{
     width: 8rem;
     height: 1.5rem;
-    background-color: white;
     border-radius: 2rem;
     font-family: 'Montserrat', sans-serif;
     color: var(--bleu);
+    text-align: -webkit-center;
 }
 .cadre_video, .cadre_dev,.cadre_design {
     display: flex;
@@ -242,6 +244,10 @@ p{
     width: 70%;
     max-width: 1400px;
     margin: auto;
+}
+
+#project h4{
+    font-size: 2.2rem;
 }
 #project .mk{
     text-align: -webkit-center;
@@ -419,7 +425,7 @@ color 0.3s ease-out;
 .service1{
     display: flex;
     justify-content: center;
-    margin-top: 14rem;
+    margin-top: 5rem;
     gap: 1rem;
 }
 
@@ -599,22 +605,52 @@ color: white;
     flex-direction: column;
     align-items: center;
 }
-.wrapform{
-    text-align: -webkit-center;
+.bloc_blanc form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.bloc_blanc input{
+  width: 100%;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+.bloc_blanc textarea{
+    width: 100%;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
 }
 .bloc_blanc{
 background-color: white;
     width: 60%;
     PADDING: 3REM;
     border-radius: 2rem;
+    text-align: center;
     box-shadow: 12px 12px 2px 1px#6d7587;
 }
-
+.grand_bloc{
+    text-align: -webkit-center;
+}
+input[type="submit"]{
+    background-color: #0F90E5;
+    align-self: center;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+}
+input[type="submit"]:hover{
+    background-color: black;
+}
  ul.reseau {
     display: flex;
     justify-content: center;
-     margin-top: 4rem;
-     margin-bottom: 4rem;
+     margin-top: 2rem;
 }
  ul.reseau li{
      margin: 20px;
@@ -645,11 +681,12 @@ ul.reseau li:nth-child(2) i{
 ul.reseau li:nth-child(3) i{
     color: #0E76A8;
 }
-
-
 footer  {
     background-color: black;
     padding: 3rem;
+}
+.footer{
+    text-align: -webkit-center;
 }
 footer p{
 color: white;
@@ -738,12 +775,7 @@ color: white;
         display: none;
     }
 
-    .burger {
-        display: block;
-        position: absolute;
-        right: 48%;
-        top: 0.1%
-    }
+
 
     .wrap {
         flex-direction: column;
@@ -792,6 +824,51 @@ color: white;
     }
     .grdbloc_service {
         margin-top: 3rem;
+    }
+    rond_blanc {
+        width: 1rem;
+        height: 1rem;
+        background-color: white;
+        border-radius: 2rem;
+        margin-top: 0.25rem;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .blue_theme {
+        width: 7rem;
+        height: 1.5rem;
+        background-color: var(--bleu);
+        border-radius: 2rem;
+        margin-right: 1rem;
+    }
+    .burger {
+        display: block;
+        position: absolute;
+        right: 94%;
+        top: 0.6%;
+        font-size: 1.5rem;
+        color: #00A8FF;
+    }
+    .bloc_h1 h1{
+        font-size : 1.5rem
+    }
+    .rond_bleu {
+        width: 0.4rem;
+        height: 0.4rem;
+        background-color: var(--bleu);
+        border-radius: 2rem;
+        margin-top: 13.5px;
+    }
+    .rond_blanc {
+        width: 1rem;
+        height: 1rem;
+        background-color: white;
+        border-radius: 2rem;
+        margin-top: 0.25rem;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        transition: 0.3s;
     }
 }
 
@@ -845,9 +922,21 @@ color: white;
         top: -15%;
 
     }
+    ul.reseau li {
+        margin: 20px;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 148px;
+        background: linear-gradient(145deg, #d4d9dc, #fdffff);
+        box-shadow: 25px 25px 50px #7b7d7f, -25px -25px 50px #ffffff;
+        cursor: pointer;
+    }
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 580px) {
 
     #project .img{
         top: 22%;
@@ -860,6 +949,28 @@ color: white;
     }
     .img_mt {
         width: 40%;
+    }
+    .skill .name span {
+        padding: 1px 20px;
+    }
+    .bar {
+        width: 82px;
+        height: 10px;
+        border-radius: 20px;
+        box-shadow: inset 6px 6px 6px #d9dade, inset 6px 6px 15px #d9dade;
+    }
+
+    ul.reseau li {
+        margin: 20px;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 148px;
+        background: linear-gradient(145deg, #d4d9dc, #fdffff);
+        box-shadow: 25px 25px 50px #7b7d7f, -25px -25px 50px #ffffff;
+        cursor: pointer;
     }
 }
 
@@ -914,11 +1025,5 @@ color: white;
 .lien p{
     color: white;
 }
- ul.lien li{
-     border-radius: 148px;
-     background: linear-gradient(145deg, #d4d9dc, #4d4d4d);
-     box-shadow:  25px 25px 50px #4D4D4D,
-     -25px -25px 50px #4d4d4d;
-     cursor: pointer;
-}
+
 
