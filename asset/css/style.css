@@ -840,7 +840,7 @@ color: white;
         height: 1.5rem;
         background-color: var(--bleu);
         border-radius: 2rem;
-        margin-right: 3rem;
+        margin-right: 1rem;
     }
     .burger {
         display: block;
