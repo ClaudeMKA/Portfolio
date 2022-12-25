@@ -775,12 +775,7 @@ color: white;
         display: none;
     }
 
-    .burger {
-        display: block;
-        position: absolute;
-        right: 48%;
-        top: 0.1%
-    }
+
 
     .wrap {
         flex-direction: column;
@@ -829,6 +824,51 @@ color: white;
     }
     .grdbloc_service {
         margin-top: 3rem;
+    }
+    rond_blanc {
+        width: 1rem;
+        height: 1rem;
+        background-color: white;
+        border-radius: 2rem;
+        margin-top: 0.25rem;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .blue_theme {
+        width: 7rem;
+        height: 1.5rem;
+        background-color: var(--bleu);
+        border-radius: 2rem;
+        margin-right: 3rem;
+    }
+    .burger {
+        display: block;
+        position: absolute;
+        right: 94%;
+        top: 0.6%;
+        font-size: 1.5rem;
+        color: #00A8FF;
+    }
+    .bloc_h1 h1{
+        font-size : 1.5rem
+    }
+    .rond_bleu {
+        width: 0.4rem;
+        height: 0.4rem;
+        background-color: var(--bleu);
+        border-radius: 2rem;
+        margin-top: 13.5px;
+    }
+    .rond_blanc {
+        width: 1rem;
+        height: 1rem;
+        background-color: white;
+        border-radius: 2rem;
+        margin-top: 0.25rem;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        transition: 0.3s;
     }
 }
 
