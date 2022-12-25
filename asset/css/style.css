@@ -171,8 +171,10 @@ ul, ol {
     padding: 1rem;
     font-weight: bold;
     cursor: pointer;
-    color: white;
     transition: 0.4s;
+}
+.rond_home1 a{
+    color: white;
 }
 .rond_home1 p:hover{
     font-size: 1.2rem;
@@ -423,7 +425,7 @@ color 0.3s ease-out;
 .service1{
     display: flex;
     justify-content: center;
-    margin-top: 14rem;
+    margin-top: 5rem;
     gap: 1rem;
 }
 
@@ -877,9 +879,21 @@ color: white;
         top: -15%;
 
     }
+    ul.reseau li {
+        margin: 20px;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 148px;
+        background: linear-gradient(145deg, #d4d9dc, #fdffff);
+        box-shadow: 25px 25px 50px #7b7d7f, -25px -25px 50px #ffffff;
+        cursor: pointer;
+    }
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 580px) {
 
     #project .img{
         top: 22%;
@@ -914,7 +928,7 @@ color: white;
         background: linear-gradient(145deg, #d4d9dc, #fdffff);
         box-shadow: 25px 25px 50px #7b7d7f, -25px -25px 50px #ffffff;
         cursor: pointer;
-    }#project
+    }
 }
 
 
@@ -968,11 +982,5 @@ color: white;
 .lien p{
     color: white;
 }
- ul.lien li{
-     border-radius: 148px;
-     background: linear-gradient(145deg, #d4d9dc, #4d4d4d);
-     box-shadow:  25px 25px 50px #4D4D4D,
-     -25px -25px 50px #4d4d4d;
-     cursor: pointer;
-}
+
 
