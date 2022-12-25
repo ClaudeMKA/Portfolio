@@ -7,7 +7,7 @@ new Typewriter(h1,{
     loop :true,
 
 })
-    .typeString('My')
+    .typeString('Mes')
 .pauseFor(300)
 .typeString(' P')
 .typeString('r')
@@ -16,7 +16,7 @@ new Typewriter(h1,{
 .typeString('j')
 .typeString('e')
     .pauseFor(500)
-.typeString('c')
 .typeString('t')
+.typeString('s')
     .pauseFor(700)
 .start()
