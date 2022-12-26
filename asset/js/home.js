@@ -11,22 +11,22 @@ let barre_bleu = document.querySelector('.barre_bleu');
 console.log(barre_bleu);
 home.addEventListener('mouseenter', function(evt){
     evt.preventDefault();
-    barre_bleu.style.right = '20%'
+    barre_bleu.style.right = '25%'
 })
 
 contact_me.addEventListener('mouseenter', function(evt){
     evt.preventDefault();
-    barre_bleu.style.right = '-195%'
+    barre_bleu.style.right = '-170%'
 })
 
 my_project.addEventListener('mouseenter', function(evt){
     evt.preventDefault();
-    barre_bleu.style.right = '-450%'
+    barre_bleu.style.right = '-380%'
 })
 
 service.addEventListener('mouseenter', function(evt){
     evt.preventDefault();
-    barre_bleu.style.right = '-660%'
+    barre_bleu.style.right = '-600%'
 })
 
 let float = document.querySelector('.cadre_video');
